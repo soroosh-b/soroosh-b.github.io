@@ -1,0 +1,132 @@
+html{
+	  scroll-behavior: smooth;
+}
+
+
+#top{
+	height: 100vh;
+	background-image: url("sample_cover.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.title_top{
+	color: white;
+}
+
+#about{
+	min-height: 100vh;
+	background:     linear-gradient(
+      rgba(252, 225, 129, 0.40), 
+      rgba(252, 225, 129, 0.70), 
+		rgba(200, 100, 0, 0.45),
+            rgba(255, 255, 255, 0.70)
+
+    ), url("about.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+}
+
+
+#expertise{
+	min-height: 100vh;
+	/*background-color: #9FEDD7;*/
+	background:     linear-gradient(
+      rgba(100, 175, 175, 0.40), 
+      rgba(100, 175, 200, 0.6), 
+		rgba(200, 100, 0, 0.45),
+            rgba(255, 255, 255, 0.70)
+
+    ), url("expertise-cover.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#education{
+	min-height: 100vh;
+	background-color: #026670;
+	background:     linear-gradient(
+      rgba(2, 102, 112, 0.40), 
+      rgba(2, 102, 112, 0.70), 
+		rgba(100, 100, 100, 0.45),
+            rgba(100, 175, 175, 0.70)
+
+    ), url("education_cover.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	/*color: white;*/
+}
+
+#contact{
+	/*height: 100vh;*/
+	min-height: 100vh;
+	background-color: white;
+}
+
+#title_name{
+	position: 	relative;
+/*	left: 5vh;
+*/	top: 15vh;
+}
+
+.title_top{
+	padding-left: 5vh;
+}
+
+#subtitle_top{
+	position: 	relative;
+/*	left: 5vh;
+*/	top: 15vh;
+}
+.center-div
+{
+     margin: 0 auto;
+}
+
+
+#about_box{
+	/*position: absolute;*/
+/*	margin-left: auto;
+	margin-right: auto;*/
+	padding: 5%;
+	margin-top: 20vh;
+	height: 200px;
+	width: 75%;
+	/*left:50%;*/
+	/*right:50%;*/
+	/*background-color: #FCE181;*/
+	background-color: rgba(255,255,255,0.8);
+	/*color: white;*/
+	font-weight: 600;
+}
+
+.spaced_divs{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20;
+	margin-bottom: 20px;
+
+}
+
+.content_column{
+	/*max-width: 25%;*/
+	height: 400px;
+	padding: 3vh;
+	margin: 20px;
+	margin-bottom: 40px;
+	background: rgba(255,255,255,0.8);
+}
+
+#contact_box{
+	/*margin: 0 auto;*/
+	margin-left: 20vh;
+	margin-top: 30vh;
+}
+
